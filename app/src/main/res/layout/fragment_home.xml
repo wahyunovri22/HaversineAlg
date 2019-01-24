@@ -1,0 +1,41 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="singpaulee.com.haversinealgorythm.fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:text="Selamat Datang"
+            android:textStyle="bold"
+            android:id="@+id/tv"
+            android:layout_marginBottom="80dp"/>
+
+        <ImageView
+            android:layout_below="@id/tv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/img"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_apotek"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apotek Finder"
+            android:textSize="26sp"
+            android:layout_below="@id/img"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</FrameLayout>

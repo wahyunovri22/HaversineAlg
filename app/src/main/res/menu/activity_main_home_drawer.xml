@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search2"
+        android:title="Search" />
+    <item
+        android:id="@+id/nav_pharmacy"
+        android:icon="@drawable/ic_pharmacy2"
+        android:title="Daftar Apotek" />
+    <item
+        android:id="@+id/nav_maps"
+        android:icon="@drawable/maps"
+        android:title="Maps" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_about"
+        android:title="Tentang" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Keluar" />
+
+
+</menu>
